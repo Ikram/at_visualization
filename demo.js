@@ -12,7 +12,7 @@ $(function(){
     //url: 'https://cdn.rawgit.com/maxkfranz/3d4d3c8eb808bd95bae7/raw', // wine-and-cheese.json
     //url: 'https://cdn.rawgit.com/Ikram/trackv/master/wine-and-cheese.json',
     // Here we are going to add new data to visualize
-    url: 'https://rawgit.com/Ikram/trackv/master/wine-and-cheese.json',
+    url: 'https://rawgit.com/Ikram/at_visualization/master/apps-trackers.json',
     //url: 'http://localhost:8080/data/json/wine-and-cheese.json',
     type: 'GET',
     dataType: 'json'
@@ -22,7 +22,7 @@ $(function(){
   var styleP = $.ajax({
     //url: 'https://cdn.rawgit.com/maxkfranz/9210c03a591f8736b82d/raw', // wine-and-cheese-style.cycss
     //Here were are adding new links for style-sheets
-     url: 'https://cdn.rawgit.com/Ikram/trackv/master/wine-and-cheese-style.cycss',
+     url: 'https://rawgit.com/Ikram/at_visualization/master/wine-and-cheese-style.cycss',
     //url: 'http://localhost:8080/data/cycss/wine-and-cheese.json',
     type: 'GET',
     dataType: 'text'
