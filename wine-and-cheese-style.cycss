@@ -44,7 +44,7 @@ node[NodeType = "TrackerType"] {
 	height: mapData(Quality, 70, 100, 20, 50);
 }
  
-node[NodeType = "LowRankWebsite"] {
+node[NodeType = "FreeApp"] {
 	background-color: white;
 	text-outline-color: white;
 }
@@ -53,7 +53,7 @@ edge[interaction = "cw"] {
 	line-color: white;
 }
  
-node[NodeType = "TopRankWebsite"] {
+node[NodeType = "PaidApp"] {
 	background-color: #DE3128;
 	text-outline-color: #DE3128;
 }
