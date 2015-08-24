@@ -117,10 +117,10 @@ $(function(){
       
       data.NodeTypeFormatted = data.NodeType;
       
-      if( data.NodeTypeFormatted === 'TopRankWebsite' ){
-        data.NodeTypeFormatted = 'Top Ranked Website';
-      } else if( data.NodeTypeFormatted === 'LowRankWebsite' ){
-        data.NodeTypeFormatted = 'Low Ranked Website';
+      if( data.NodeTypeFormatted === 'PaidApp' ){
+        data.NodeTypeFormatted = 'Paid App';
+      } else if( data.NodeTypeFormatted === 'FreeApp' ){
+        data.NodeTypeFormatted = 'Free App';
       }
       
       n.data.orgPos = {
@@ -276,11 +276,11 @@ $(function(){
             filter();
           }
           
-        } else if( type === 'TopRankWebsite' ){
+        } else if( type === 'PaidApp' ){
           
           if( !red ){ filter(); }
           
-        } else if( type === 'LowRankWebsite' ){
+        } else if( type === 'FreeApp' ){
           
           if( !white ){ filter(); }
           
